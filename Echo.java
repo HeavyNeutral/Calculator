@@ -1,5 +1,3 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 import java.util.Scanner;
 
 public class Echo {
@@ -10,7 +8,7 @@ public class Echo {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.print("How many miles ");
+        System.out.print("Enter the number of miles to be converted ");
         miles = in.nextInt();
 
         km = miles * 1.60934;
