@@ -8,7 +8,7 @@ public class Echo {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Enter the number of miles to be converted ");
+        System.out.print("Enter the number of miles to be converted to km");
         miles = in.nextInt();
 
         km = miles * 1.60934;
